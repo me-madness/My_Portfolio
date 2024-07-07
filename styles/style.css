@@ -474,7 +474,7 @@ section {
   transform: scale(1);
 }
 
-/*Blogs*/
+/*Blogs Sections*/
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
