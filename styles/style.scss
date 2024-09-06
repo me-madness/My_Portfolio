@@ -51,7 +51,8 @@ a {
 }
 
 header {
-    height: 100vh;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
     color: var(--color-white);
     overflow: hidden;
 }
@@ -743,3 +744,5 @@ section {
         }
     }
 }
+
+@import './media';
