@@ -528,6 +528,10 @@ section {
   padding-bottom: 1rem;
 }
 
+.contact-content-con {
+  display: flex;
+  padding-top: 3.5rem;
+}
 /*Independed components*/
 .btn-con {
   display: flex;
