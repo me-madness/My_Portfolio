@@ -177,8 +177,8 @@ section {
 
 .header-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
     .left-header {
         display: flex;
         align-items: center;
@@ -192,7 +192,7 @@ section {
             left: 0;
             top: 0;
             z-index: -1;
-            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+            clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%)
         }
         .image {
             border-radius: var(--br-sm-2);
